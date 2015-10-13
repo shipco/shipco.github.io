@@ -24,14 +24,7 @@
         <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
     <body>
-    	<div class="loader">
-    		<div class="spinner">
-			  <div class="double-bounce1"></div>
-			  <div class="double-bounce2"></div>
-			</div>
-    	</div>
-				
-		<div class="nav-container">
+    	<div class="nav-container">
 			<nav class="top-bar overlay-bar">
 				<div class="container">
 				
@@ -41,8 +34,9 @@
 							<img class="logo logo-dark" alt="Logo" src="img/logo-dark.png">
 						</div>
 					
-						<div class="col-md-10 col-sm-9 columns">
+						<div class="col-md-10 col-sm-9 columns text-right">
 							<ul class="menu">
+								<li><a href="#">Ship</a></li>
 								<li><a href="#">Port Authority</a></li>
 								<li><a href="#">Dock Platform</a></li>
 							</ul>
@@ -55,48 +49,6 @@
 					
 				</div>
 			</nav>
-		
-			
-		
-			
-		
-						
-			
-		
-			
-		
-			
-		
-			
-		
-			
-		
-			
-		
-			
-		
-			
-		
-			
-		
-			
-		
-			
-		
-			
-		
-			
-		
-			
-		
-			
-		
-			
-		
-			
-		
-			
-		
 		</div>
 		
 		<div class="main-container">
@@ -109,7 +61,7 @@
 					<div class="row">
 						<div class="col-md-12 text-center">
 							<span class="text-white alt-font">Say Hello To Pivot</span>
-							<h1 class="text-white">The biggest, baddest new template on the block <br>has arrived, build yours now.</h1>
+							<h1 class="text-white element"></h1>
 							<p class="lead text-white">Tons of elements, Consistent style, Variant builder included.</p>
 							<a target="_blank" href="http://www.mediumra.re/pivot/variant/builder.html" class="btn btn-primary btn-white">Customize Pivot</a>
 							<a href="#" class="btn btn-primary btn-filled">Purchase Pivot</a>
@@ -438,6 +390,15 @@
         <script src="js/lightbox.min.js"></script>
         <script src="js/jquery.countdown.min.js"></script>
         <script src="js/scripts.js"></script>
+		<script src="js/typed.js"></script>
+		<script>
+		    $(function(){
+		        $(".element").typed({
+		            strings: ["Sales report for all items for past 30 days", "Post that report every Monday morning on #sales", "List all customers added yesterday", "Email me that list every morning"],
+		            typeSpeed: 0
+		        });
+		    });
+		</script>
     </body>
 </html>
 				
