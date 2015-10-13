@@ -583,31 +583,6 @@ nav hr {
 .has-dropdown:hover .subnav {
   display: block;
 }
-.nav-sticky {
-  position: fixed !important;
-  top: 0;
-}
-.nav-sticky .logo {
-  bottom: 5px;
-}
-.nav-sticky hr {
-  display: none !important;
-}
-.top-bar.nav-sticky {
-  background: rgba(255, 255, 255, 0.9);
-}
-.top-bar.nav-sticky .nav-menu {
-  padding-top: 32px;
-}
-.top-bar.nav-sticky .menu li a {
-  padding-bottom: 32px;
-}
-.top-bar.nav-sticky .subnav {
-  background: rgba(255, 255, 255, 0.9);
-}
-.top-bar.nav-sticky .utility-menu {
-  display: none;
-}
 .subnav-fullwidth {
   overflow: hidden;
   left: 0px;
