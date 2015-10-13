@@ -76,7 +76,7 @@ body.pace-white .pace .pace-progress {
 ------------------------------------
 */
 .header {
-  position: fixed;
+  position: absolute;
   top: 0;
   height: 60px;
   width: 100%;
