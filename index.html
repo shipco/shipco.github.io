@@ -2,9 +2,7 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js">
-<!--<![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
 
 <head>
 	<meta charset="utf-8">
@@ -20,6 +18,7 @@
 	<link href="css/theme-matte.css" rel="stylesheet" type="text/css" media="all" />
 	<!--[if gte IE 9]>
         	<link rel="stylesheet" type="text/css" href="css/ie9.css" />
+			
 		<![endif]-->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700%7CRaleway:700' rel='stylesheet'
 	type='text/css'>
@@ -37,13 +36,14 @@
 						<a href="/"><img class="logo logo-light" alt="Logo" src="images/logo-light.png"></a>
 						<img class="logo logo-dark" alt="Logo" src="img/logo-dark.png">
 					</div>
-
+					<!-- ToDo: Port Authority & Dock pages
 					<div class="col-md-10 col-sm-9 columns text-right">
 						<ul class="menu">
 							<li><a href="#">Port Authority</a></li>
 							<li><a href="#">Dock Platform</a></li>
 						</ul>
 					</div>
+					-->
 				</div>
 
 				<div class="mobile-toggle">
@@ -75,7 +75,8 @@
 				</div>
 			</div>
 		</header>
-
+		
+		<!-- Old "Add inventory item" banner section
 		<section class="text-banner">
 			<div class="container text-center">
 				<div class="row">
@@ -97,8 +98,25 @@
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<a href="#" class="btn btn-primary">See Features</a>
-						<a href="#" class="btn btn-primary btn-text-only">Learn More</a>
+		</section>
+		-->
+
+		<section class="inline-image-right">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6 align-vertical no-align-mobile">
+						<h1>"List all inventory items with over 500 sales"</h1>
+						<p class="lead">
+							Finding data you need is as simple as typing what you're thinking. With natural language querying, Ship understands you and
+							your data, and finds exactly what you're looking for.
+						</p>
+					</div>
+
+					<div class="col-sm-6 text-center">
+						<img alt="Product Image" class="product-image" src="img/devices.png">
+					</div>
+				</div>
+			</div>
 		</section>
 
 		<section class="inline-image-right">
@@ -140,24 +158,6 @@
 			</div>
 		</section>
 
-		<section class="inline-image-right">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-6 align-vertical no-align-mobile">
-						<h1>"Sales records for Dallas store for past month"</h1>
-						<h6>Reporting &amp; automation made painless</h6>
-						<p class="lead">
-
-						</p>
-					</div>
-
-					<div class="col-sm-6 text-center">
-						<img alt="Product Image" class="product-image" src="img/devices.png">
-					</div>
-				</div>
-			</div>
-		</section>
-
 		<section class="no-pad clearfix">
 
 			<div class="col-md-4 col-sm-6 no-pad">
@@ -167,7 +167,6 @@
 						Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint
 						et molestiae non recusandae.
 					</p>
-					<a href="#" class="btn btn-primary btn-white">Tell Me More</a>
 				</div>
 			</div>
 
@@ -178,7 +177,6 @@
 						Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint
 						et molestiae non recusandae.
 					</p>
-					<a href="#" class="btn btn-primary btn-white">Tell Me More</a>
 				</div>
 			</div>
 
@@ -189,7 +187,6 @@
 						Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint
 						et molestiae non recusandae.
 					</p>
-					<a href="#" class="btn btn-primary">Tell Me More</a>
 				</div>
 			</div>
 
@@ -289,6 +286,7 @@
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-67700739-2', 'auto');
-  ga('send', 'pageview');</script>
+  ga('send', 'pageview');
+</script>
 
 </html>
